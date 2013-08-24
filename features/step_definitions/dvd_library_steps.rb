@@ -9,19 +9,17 @@ Then(/^I should see that there are no DVDs$/) do
 		page.should have_content("There are no DVDs in the library")
 	end
 
-Dvd = Struct.new :case, :case_page
+Dvd = Struct.new :location, :title
 
 Given(/^there are some DVDs in library$/) do
 	@dvds = [
-		Dvd.new("Case1", "Star Wars Episode IV"),
-		Dvd.new("Case2", "Star Trek")
+		Dvd.new("Case 1 Page 1", "Star Wars Episode IV"),
+		Dvd.new("Case 2 Page 2", "Star Trek")
 	]
 end
 
-Then(/^I should see the DVDs grouped by case$/) do
+Then(/^I should see the DVDs titles and case location$/) do
 	@dvds.each do |dvd|
-		within(".#{dvd.case}") do
-			page.should have_css(".dvd", text: dvd.title)
-		end
+		page.should have_css(".dvd", text: dvd.title + " - " + dvd.location)
 	end
 end
