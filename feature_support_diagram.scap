@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ScappleDocument Version="1.1" ID="BB33F5C1-E294-4396-B0A0-23F8BCCDFB0D">
+    <Notes>
+        <Note ID="0" FontSize="12.0" Position="210.0,98.0" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.724864 0.940019 0.747092</Fill>
+            </Appearance>
+            <String>Add DVD</String>
+        </Note>
+        <Note ID="1" FontSize="12.0" Position="9.0,11.0" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>DVD Library
+What Data?
+Focus on featuers </String>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="241.0,204.0" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.724864 0.940019 0.747092</Fill>
+            </Appearance>
+            <String>Edit DVD</String>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="470.0,166.0" Width="69.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Fill>0.724864 0.940019 0.747092</Fill>
+            </Appearance>
+            <String>View DVDs</String>
+            <ConnectedNoteIDs>4-5</ConnectedNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="221.0,126.0" Width="127.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>?
+What data to capture?</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="246.0,235.0" Width="106.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>?
+What data to edit?</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <NoteStyles>
+        <Style Name="Title Text" ID="B31E08D2-3B98-485D-A2E6-1A883A7E8380" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+        <Style Name="Red Text" ID="F34ABECA-CD4C-4445-9AC3-16AD58E24E45" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>1.0 0.0 0.0</TextColor>
+        </Style>
+        <Style Name="Brown Bubble" ID="9A399033-3998-4798-A2B4-119FFA7B6E12" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.290055 0.1523 0.182215</BorderColor>
+            <FillColor>0.940019 0.892907 0.779716</FillColor>
+        </Style>
+        <Style Name="Yellow Bubble" ID="27109D18-01DC-4A6A-A827-29989049C855" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.756763 0.785592 0.373258</BorderColor>
+            <FillColor>0.906773 0.910625 0.634363</FillColor>
+        </Style>
+        <Style Name="Green Bubble" ID="82FA65E3-0028-41CA-847C-BE2D1C21BFFE" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.331867 0.609932 0.356197</BorderColor>
+            <FillColor>0.790123 0.882327 0.80198</FillColor>
+        </Style>
+        <Style Name="Blue Bubble" ID="2CDA412C-FB48-4725-A6BE-5D6C48E44597" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.477193 0.557066 0.76433</BorderColor>
+            <FillColor>0.840969 0.866828 0.925903</FillColor>
+        </Style>
+        <Style Name="Pink Bubble" ID="07F3F3B5-8E1C-4FF1-A8B2-DBA3CEBAB98F" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.747881 0.366532 0.542813</BorderColor>
+            <FillColor>0.918452 0.807302 0.863467</FillColor>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999737 0.986332 0.931298</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
