@@ -6,13 +6,22 @@ When(/^I go to the DVDs display page$/) do
 end
 
 Then(/^I should see that there are no DVDs$/) do
-		page.should have_content("there are no DVDs in the library")
+		page.should have_content("There are no DVDs in the library")
 	end
 
+Dvd = Struct.new :case, :case_page
+
 Given(/^there are some DVDs in library$/) do
-  pending # express the regexp above with the code you wish you had
+	@dvds = [
+		Dvd.new("Case1", "Star Wars Episode IV"),
+		Dvd.new("Case2", "Star Trek")
+	]
 end
 
 Then(/^I should see the DVDs grouped by case$/) do
-  pending # express the regexp above with the code you wish you had
+	@dvds.each do |dvd|
+		within(".#{dvd.case}") do
+			page.should have_css(".dvd", text: dvd.title)
+		end
+	end
 end
