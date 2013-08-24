@@ -2,6 +2,5 @@ There are no DVDs in the library
 
 %section.dvds
 	%ul
-		%li.dvd Star Wars Episode IV - Case 1 Page 1
-		%li.dvd Star Trek - Case 2 Page 2
-		%li.dvd Lion King - Case 1 Page 2
+		- @dvds.each do |dvd|
+			%li.dvd= dvd.title + " - " + dvd.location
